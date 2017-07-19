@@ -1,0 +1,29 @@
+.card, .card p {
+    font-size: 1em;
+    text-align: left;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+}
+
+.card .card-edit {
+    visibility: hidden;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.card .glyphicon {
+    color: gray;
+}
+
+.card:hover {
+    background-color: #ededed;
+    cursor: pointer;
+}
+
+.card:hover .card-edit {
+    visibility: visible;
+}

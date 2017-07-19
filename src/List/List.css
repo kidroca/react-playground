@@ -1,0 +1,26 @@
+.trello-list .panel-heading h4 {
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.trello-list .panel-footer {
+    text-align: left;
+    padding-top: 2rem;
+    font-size: 1em;
+    color: gray;
+}
+
+.trello-list .panel-body {
+    padding: 0 1rem;
+}
+
+.trello-list .card {
+    margin-bottom: 1rem;
+}
+
+.trello-list .panel-body, .trello-list .panel-heading, .trello-list .panel-footer {
+    background-color: #e2e4e6;
+    border: none;
+}
